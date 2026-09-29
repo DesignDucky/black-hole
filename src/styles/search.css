@@ -47,6 +47,7 @@
 
   font-size: 1rem;
   outline: none;
+  text-align: center;
 }
 
 .search-input:focus {
@@ -123,10 +124,15 @@
 
 .thought p {
   margin: 0 0 .5rem;
+
+  font-family: var(--font-thought);
+  font-size: 1.1rem;
+  line-height: 1.4;
 }
 
 .thought small {
   color: #666;
+  font-family: var(--font-interface);
 }
 
 
@@ -146,7 +152,7 @@
   border: 0;
   background: transparent;
 
-  color: #888;
+  color: #fff;
 
   cursor: pointer;
 }

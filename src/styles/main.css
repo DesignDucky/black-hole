@@ -60,3 +60,25 @@ button {
 
   border-top: 1px solid #222;
 }
+
+:root {
+  --font-interface: ui-monospace, "Cascadia Code", "Roboto Mono",
+    "Courier New", monospace;
+
+  --font-thought: "Roboto Condensed", "Arial Narrow",
+    Arial, sans-serif;
+}
+
+.void {
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+  background: #080808;
+  color: #eee;
+
+  font-family: var(--font-interface);
+
+  overflow: hidden;
+}
